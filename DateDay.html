@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function whichDay(){
+            var i = new Date().getDay();
+            var res = 0;
+            switch(i)
+            {
+                case 1:
+                    document.getElementById("day").value = "MONDAY";
+                    break;
+                case 2:
+                    document.getElementById("day").value = "TUESDAY";
+                    break;
+                case 3:
+                    document.getElementById("day").value = "WEDNESDAY";
+                    break;
+
+            }
+        }
+    </script>
+</head>
+<body>
+    <label for="day">TODAY is : </h2>
+    
+    <input type="text" name="day" id="day" value=""><br><br>
+    <button onclick="whichDay();">Click me</button>
+
+
+</body>
+</html>

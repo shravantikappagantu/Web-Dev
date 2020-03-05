@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h2> Array Elements Printing...</h2>
+    <script>
+        var arr=[ 1, 2, " Hey"];
+        for(var j in arr)
+   {
+       document.write(arr[j]+ " ");
+   } </script>
+   <h1 id="ch"> This is the change</h1>
+   <script>
+    var elem=document.getElementById("ch");
+    var arr=[ 1, 2, " Hey"];
+    for(var j in arr)
+{
+   elem.innerHTML+=(" "+arr[j]+" ");
+} </script>
+</body>
+</html>

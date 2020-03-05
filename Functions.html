@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function myAddition(){
+            var i= parseInt(document.getElementById("Physics").value);
+            var j= parseInt(document.getElementById("Math").value);
+            var k =i+j;
+            document.getElementById("Ans").value=k;
+            // alert(i+j);
+            // if(i+j>30)
+            // alert("Pass");
+            // else
+            // alert("Fail bro");
+        }
+    </script>
+    <title>Shrav</title>
+</head>
+<body>
+    <h3>Hello, world!!</h3>
+    <label for ="Physics">Physics</label>
+    <input type="text" name="Physics" id="Physics">
+    <label for ="Math">Math</label>
+    <input type="text" name="maths" id="Math"><br> <br>
+    <input type="button" value="Submit" onclick="myAddition();"><br> <br>
+    <label for ="Sum">Sum</label>
+    <input type="text" id="Ans"><br> <br>
+    
+</body>
+</html>
